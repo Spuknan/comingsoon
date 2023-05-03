@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.Csoon_bg {
+  background: #151415;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  gap: 5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Csoon_bg .logo {
+  margin-top: -2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #EAEAEA;
+}
+.Csoon_bg .logo img {
+  max-height: 300px;
+  filter: drop-shadow(10px 0px 5px #000000);
+}
+.Csoon_bg .logo h1 {
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+.Csoon_bg .logo h2 {
+  font-weight: 300;
+  font-size: 0.72rem;
+  color: #858585;
+  text-align: center;
+}
+.Csoon_bg .proximamente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Csoon_bg .proximamente p {
+  color: #EAEAEA;
+  width: 500px;
+  text-align: center;
+}
+.Csoon_bg .redes {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Csoon_bg .redes img {
+  transition: 0.4s ease;
+}
+.Csoon_bg .redes img:hover {
+  transform: scale(1.3);
+  filter: drop-shadow(0 0 5px #000);
+}
+.Csoon_bg .pina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Csoon_bg .pina form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.Csoon_bg .pina form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Csoon_bg .pina form div label {
+  color: #858585;
+}
+.Csoon_bg .pina form div input {
+  border-radius: 5px;
+  border: none;
+  padding: 4px 12px;
+}/*# sourceMappingURL=main.css.map */
